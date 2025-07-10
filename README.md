@@ -1,98 +1,98 @@
-# Churn risk analyzer dashboard
-A Power BI + ML dashboard project to analyze and reduce customer churn risk using business KPIs and predictive modeling.
 # 📊 Customer Churn Risk Analyzer Dashboard
 
-A real-world business analytics project that combines **Power BI** with **Logistic Regression** to analyze, predict, and reduce customer churn for a telecom company. Designed for CXO-level visibility into **revenue at risk**, customer segmentation, and actionable retention strategies.
+> Built using **Power BI + Logistic Regression (Python)**  
+> Designed to predict customer churn and visualize actionable business insights.
 
 ---
 
-## 🎯 Project Objective
+## 🔍 Project Overview
 
-To identify high-risk customers using ML and present business-critical insights in an executive-level Power BI dashboard — helping decision-makers take timely action to reduce churn.
+This project identifies customers at risk of churning in a telecom company using machine learning (Logistic Regression) and presents the results through an interactive Power BI dashboard.
 
----
-
-## 🛠 Tools & Technologies Used
-
-- 🧠 Logistic Regression (Scikit-learn)
-- 📊 Power BI for interactive dashboarding
-- 📄 Excel for data preprocessing
-- 🐍 Python for ML model building
-
----
-
-## 📈 Key Business KPIs
-
-| Metric                 | Value       |
-|------------------------|-------------|
-| 🔢 Total Customers      | 5,901       |
-| 📉 Churn Rate           | 15.49%      |
-| 💸 Avg. Monthly Charges | ₹64.76      |
-| 🚨 High-Risk Customers  | 1,406       |
-
----
-
-## 🔍 Key Insights from the Dashboard
-
-- 🔁 **Monthly contract customers churn 3× more** than long-term users  
-- 💸 Customers paying ₹80+ monthly have higher churn probability  
-- 👵 Senior customers + poor support = higher exit rates  
-- 🌐 Fiber users without security are at greater churn risk  
-- 📉 Around **64% of customers fall under churn risk segments**
-
----
-
-## 🧪 Machine Learning Integration
-
-Used **Logistic Regression** to classify churn probability for each customer. Risk was segmented into:
-- **High Risk**
-- **Medium Risk**
-- **Low Risk**
-
-Integrated model output into Power BI for interactive filtering and business storytelling.
-
----
-
-## 📄 Dashboard Preview (PDF)
-
- 👉 📊 Customer Churn Dashboard – Predictive Analytics & Retention Strategy (PDF)
+It combines:
+- Data science (Python)
+- Data storytelling (Power BI)
+- Business insight generation
 
 ---
 
 ## 📂 Project Structure
-churn-risk-analyzer-dashboard/
-├── PowerBI_Dashboard/
-│ ├── 📊 Customer Churn Dashboard – Predictive Analytics & Retention Strategy.pbix
-│ └── 📊 Customer Churn Dashboard – Predictive Analytics & Retention Strategy (PDF)
-├── ML_Model/
-│ ├── telco churn prediction.ipynb
-│ └── Telco customer churn.csv
-├── Images/
-│ └── 📊 Customer Churn Dashboard – Predictive Analytics & Retention Strategy (PDF)
+
+customer-churn-risk-analyzer/
+├── data/
+│ └── telco_churn_with_predictions.csv
+├── notebooks/
+│ └── data_cleaning.ipynb
+├── dashboard/
+│ └── Churn_Dashboard.pbix
+├── images/
+│ └── churn_dashboard_preview.png 
 └── README.md
 
 ---
 
-## 👩‍💼 Built By
+## 🧠 Machine Learning Workflow (Python)
 
-**Falguni Borkar**  
-MBA – Business Analytics | Jain University  
-🔗 [LinkedIn](https://www.linkedin.com/in/falguniborkar29) | 💼 [Portfolio Project](#)
+- **Data Cleaning**: Removed nulls, encoded categorical variables
+- **Model Used**: Logistic Regression
+- **Target Variable**: `Churn`
+- **Features Used**: Demographics, internet services, contracts, billing
+- **Output**: 
+  - `Churn_Predicted` (0 or 1)
+  - `Churn_Probability` (likelihood of churning)
 
----
-
-## ✅ Outcomes
-
-This project showcases:
-- Business-focused analytics using real-world datasets
-- CXO-level storytelling with data
-- End-to-end integration of machine learning with dashboarding
-- A recruiter-ready, Fractal-style internship project
+> The final CSV (`telco_churn_with_predictions.csv`) was imported into Power BI.
 
 ---
 
-## 📬 Feedback & Collaboration
+## 📊 Power BI Dashboard Features
 
-I’d love feedback from the community and professionals in analytics and consulting. Feel free to fork, explore, or DM me if you’d like a project walkthrough or a resume-ready version of this!
+| Visual                | Purpose                                         |
+|-----------------------|-------------------------------------------------|
+| 📍 Donut Chart        | Churned vs Not Churned                         |
+| 📊 Bar Chart          | Churn by Contract Type                         |
+| 💡 KPI Card           | Avg. Churn Risk Score                          |
+| 📋 High-Risk Table     | Top churn risk customers (with heat coloring) |
+| 🎛️ Slicers            | Gender, Contract, Tenure, Internet, Senior     |
 
-#PowerBI #BusinessAnalytics #CustomerChurn #DataScience #FractalReady #InternshipReady #DashboardDesign
+---
+
+## 💡 Key Insights
+
+- **64%** average churn risk detected across customer base.
+- **Month-to-Month** contracts have 3× higher churn rate than others.
+- High-churn customers often pay more than ₹80/month and lack service add-ons.
+- Senior Citizens with no tech support show higher churn tendencies.
+
+---
+
+## 🛠 Tools & Technologies
+
+- **Python** (Pandas, Sklearn, Jupyter Notebook)
+- **Power BI Desktop**
+- **Machine Learning**: Logistic Regression
+
+---
+
+## 📥 How to Run
+
+1. Open `data_cleaning.ipynb` to view Python ML process
+2. Load `telco_churn_with_predictions.csv` into Power BI
+3. Open `Churn_Dashboard.pbix` in Power BI Desktop
+4. Use slicers to explore churn trends
+
+---
+
+## 📈 Perfect For
+
+✅ Data Analyst Portfolio  
+✅ Consulting/Analytics Interviews  
+✅ Business Intelligence Demo Projects
+
+---
+
+## 📣 Connect With Me
+
+*Built with curiosity, code, and a passion for solving real business problems.*
+
+> [www.linkedin.com/in/falguniborkar29] 
