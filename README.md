@@ -95,4 +95,10 @@ customer-churn-risk-analyzer/
 
 *Built with curiosity, code, and a passion for solving real business problems.*
 
-> [www.linkedin.com/in/falguniborkar29] 
+> [www.linkedin.com/in/falguniborkar29]
+
+ ## 📄 Dashboard Preview
+
+👉 [View Full Dashboard (PDF)](https://github.com/Falguni2905/Churn-risk-analyzer-dashboard/raw/main/PowerBI_Dashboard/Churn_Dashboard_Preview.pdf)
+
+![Dashboard Screenshot](https://github.com/Falguni2905/Churn-risk-analyzer-dashboard/raw/main/Images/churn_dashboard_screenshot.png)
